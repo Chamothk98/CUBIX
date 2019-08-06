@@ -43,6 +43,12 @@
                 android:label="@string/add_Ongoin"
                 android:parentActivityName=".OurOrder">
         </activity>
+
+        <activity android:name=".contactus"></activity>
+        <activity android:name=".showorders" />
+        <activity android:name=".showorderdetails" />
+        <activity android:name=".showdliverymandetails">
+        </activity>
     </application>
 
 </manifest>
