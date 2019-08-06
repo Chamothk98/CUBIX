@@ -1,12 +1,5 @@
 <resources>
-    <string name="app_name">Our Orders</string>
-    <string name="title_activity_home">Home</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+
 
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
@@ -57,9 +50,45 @@
     <string name="ACCBUT">Accept</string>
 
 
+    <string name="view_Details_btn">VIEW DETAILS</string>
+    <string name="Sausage_pizza">Sausage  pizza</string>
+    <string name="Greek_Pizza">Greek Pizza</string>
+    <string name="Mexican_Taco">Mexican Taco</string>
+    <string name="Add">Add Cart</string>
+    //cart
 
+    <string name="Qty">Qty</string>
+    <string name="Size">Size</string>
 
-    John123@gmail.
+    <string name="Pay">pay</string>
+    <string name="Update">Update</string>
+    <string name="Delete">Delete</string>
+    //pay1
+    <string name="Name1">Sausage  pizza</string>
+    <string name="Qty1">9 pieces</string>
+    <string name="Size1">Rs.1200</string>
+    <string name="Price1">P</string>
 
-    com
+    <string name="Visa_card_num">Visa card  num</string>
+    <string name="Payment">Pay</string>
+    <string name="Home">Home</string>
+    //view Detils
+    <string name="Name3">Cheese Lovers</string>
+    <string name="Describe">Rich Tomato souce with a triple layer of mozzarella cheese</string>
+    <string name="Size3">9 pies</string>
+    <string name="Size4">16 pies</string>
+    <string name="Size5">24 pies</string>
+    <string name="Price3">Rs.1200</string>
+    <string name="Price4">Rs.2000</string>
+    <string name="Price5">Rs.2800</string>
+    <string name="Home1">Home</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="add_cart">Cart</string>
+    <string name="add_pay">Pay</string>
+    <string name="add_reg">Register</string>
+    <string name="add_details">Details</string>
+    //update
+    <string name="Update_Complete">Done</string>
+    //Register
+    <string name="Submit">Submit</string>
 </resources>
