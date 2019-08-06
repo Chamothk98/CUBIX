@@ -57,9 +57,10 @@
     <string name="ACCBUT">Accept</string>
 
 
+    <string name="getOrders">Get Orders</string>
+    <string name="delete">Delete</string>
+    <string name="confirm">Confirm</string>
+    <string name="submit">Submit</string>
+    <string name="view">View</string>
 
-
-    John123@gmail.
-
-    com
 </resources>
