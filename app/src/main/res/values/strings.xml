@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Our Orders</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="Add_acticityTitle">Add Items</string>
+    <string name="add_menu">Menu</string>
+    <string name="add_update">Update</string>
+    <string name="add_Ongoin">Ongoing Orders</string>
+    <string name="Login">Login</string>
+    <string name="User_name">User name</string>
+    <string name="Password">Password</string>
+    <string name="LoginP">Login</string>
+    <string name="Name">Name :</string>
+    <string name="Price">Price :</string>
+    <string name="Content">Content :</string>
+    <string name="Add_button">ADD</string>
+    <string name="Login_button">Login</string>
+    <string name="Cart_button">Cart</string>
+    <string name="Add_cart">Add cart</string>
+    <string name="View">View details</string>
+    <string name="pizza1">Peparoni Pizza</string>
+    <string name="pizza2">Cheese Chicken Pizza</string>
+    <string name="pizza3">Cheese onion Pizza</string>
+    <string name="pizza4">Devil chicken Pizza</string>
+    <string name="Add_Mbutton">Add menu Item</string>
+    <string name="mssage">Please tell yourdelivery boy that he has come on 2nd floor because i am not available at home</string>
+    <string name="NUmber">9478675984</string>
+    <string name="Email">John123@gmail.</string>
+    <string name="Address">440 Temple road,Galle,Srilanka</string>
+    <string name="Item">Item</string>
+    <string name="quantity">Quantity</string>
+    <string name="Price2">Price</string>
+    <string name="size">2</string>
+    <string name="Rs">Rs.2500.00</string>
+    <string name="cnslOrder">Cancel Order</string>
+    <string name="Call">Call</string>
+    <string name="MAIL">Email</string>
+    <string name="Navi">Navigate</string>
+    <string name="NewORD">Refresh</string>
+    <string name="ONGO">On Going Order</string>
+    <string name="MENUU">Menu</string>
+    <string name="NAMEE1">John Smith</string>
+    <string name="NAME2">Kapil</string>
+    <string name="CNSLBUT">Cancel</string>
+    <string name="ACCBUT">Accept</string>
+
+
+
+
+    John123@gmail.
+
+    com
+</resources>
