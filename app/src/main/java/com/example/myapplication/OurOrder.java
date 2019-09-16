@@ -21,7 +21,5 @@ public class OurOrder extends AppCompatActivity {
         startActivity(Me);
     }
 
-
-
 }
 
