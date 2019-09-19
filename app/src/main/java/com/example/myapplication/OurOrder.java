@@ -21,5 +21,11 @@ public class OurOrder extends AppCompatActivity {
         startActivity(Me);
     }
 
+    public void add(View view){
+        Intent Ad = new Intent(this,update_menu.class);
+        startActivity(Ad);
+    }
+
+
 }
 
