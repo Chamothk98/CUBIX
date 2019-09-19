@@ -9,8 +9,8 @@
 
     <Button
             android:id="@+id/btnSearch"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
+            android:layout_width="83dp"
+            android:layout_height="41dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
@@ -19,15 +19,14 @@
             android:text="@string/search"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.025"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.95"/>
+            app:layout_constraintVertical_bias="0.948"/>
     <Button
             android:id="@+id/btnDelete"
-            android:layout_width="wrap_content"
+            android:layout_width="87dp"
             android:layout_height="40dp"
-            android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
@@ -35,15 +34,14 @@
             android:text="@string/delete"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.654"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.952"/>
+            app:layout_constraintVertical_bias="0.946" app:layout_constraintStart_toEndOf="@+id/btnUpdate"
+            android:layout_marginStart="8dp" android:layout_marginLeft="8dp"
+            app:layout_constraintHorizontal_bias="0.034"/>
     <Button
             android:id="@+id/btnUpdate"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:layout_marginStart="8dp"
+            android:layout_width="79dp"
+            android:layout_height="41dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
@@ -51,10 +49,10 @@
             android:text="@string/update"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.315"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.952"/>
+            app:layout_constraintVertical_bias="0.948" app:layout_constraintStart_toEndOf="@+id/btnSearch"
+            android:layout_marginStart="8dp" android:layout_marginLeft="8dp"
+            app:layout_constraintHorizontal_bias="0.018"/>
     <TextView
         android:id="@+id/textView8"
         android:layout_width="0dp"
@@ -151,6 +149,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
+            android:hint="yname"
             android:ems="10"
             android:inputType="textPersonName"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -162,9 +161,8 @@
 
     <Button
             android:id="@+id/btnSubmit"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:layout_marginStart="8dp"
+            android:layout_width="86dp"
+            android:layout_height="41dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
@@ -172,9 +170,9 @@
             android:text="@string/submit"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.95"/>
+            app:layout_constraintVertical_bias="0.948" app:layout_constraintStart_toEndOf="@+id/btnDelete"
+            android:layout_marginStart="8dp" android:layout_marginLeft="8dp"
+            app:layout_constraintHorizontal_bias="0.619"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

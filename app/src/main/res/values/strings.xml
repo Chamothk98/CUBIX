@@ -91,4 +91,13 @@
     <string name="Update_Complete">Done</string>
     //Register
     <string name="Submit">Submit</string>
+    <string name="yname">Your Name</string>
+    <string name="yemail">Your Email</string>
+    <string name="yphoneno">Your Phone Number(optional)</string>
+    <string name="yweb">Your Web Site(optional)</string>
+    <string name="typemessage">Type Your Message Here</string>
+    <string name="search">Search</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="submit">Submit</string>
 </resources>
