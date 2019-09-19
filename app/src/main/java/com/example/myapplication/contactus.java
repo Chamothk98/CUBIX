@@ -43,6 +43,8 @@ public class contactus extends AppCompatActivity {
         btnDelete = findViewById(R.id.btnDelete);
         btnSubmit = findViewById(R.id.btnSubmit);
 
+        //Insert Method
+
         btnSubmit.setOnClickListener(new View.OnClickListener() {
 
             contactusrecords conus = new contactusrecords();
@@ -119,6 +121,51 @@ public class contactus extends AppCompatActivity {
             }
         });
 
+        //Search Method
+
+        btnSearch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                // DatabaseReference FindRef = FirebaseDatabase.getInstance().getReference().child("Driver").child("983081894V");
+                DatabaseReference FindsRef = FirebaseDatabase.getInstance().getReference().child("contactusrecords");
+
+                dbRef = FirebaseDatabase.getInstance().getReference().child("contactusrecords").child(txtName.getText().toString());
+                //Log.i("NIC", txtSearch.getText().toString());
+                dbRef.addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+
+                        try {
+
+                            if (dataSnapshot.hasChildren()) {
+
+                                txtName.setText(dataSnapshot.child("name").getValue().toString());
+                                txtEmail.setText(dataSnapshot.child("email").getValue().toString());
+                                txtPhone.setText(dataSnapshot.child("phoneNo").getValue().toString());
+                                txtWebsite.setText(dataSnapshot.child("website").getValue().toString());
+                                txtMessage.setText(dataSnapshot.child("message").getValue().toString());
+                            }
+                            else{
+                                Toast.makeText(getApplicationContext(), "No Source to Display", Toast.LENGTH_SHORT).show();
+                            }
+                        }catch (Exception ex){
+
+                            Toast.makeText(getApplicationContext(), ex.getMessage().toString(), Toast.LENGTH_SHORT).show();
+
+                        }
+
+
+                    }
+
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                    }
+                });
+            }
+        });
+
         //Delete Method
 
         btnDelete.setOnClickListener(new View.OnClickListener() {
@@ -146,7 +193,6 @@ public class contactus extends AppCompatActivity {
                 });
             }
         });
-
     }
 
 }
