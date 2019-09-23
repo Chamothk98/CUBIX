@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.myapplication">
+        package="com.example.myapplication">
 
     <application
             android:allowBackup="true"
@@ -9,46 +9,64 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".Login" android:label="@string/Login">
-        </activity>
+        <activity android:name=".update_menu"
+                android:label="Update Menu"
+                ></activity>
+        <activity
+                android:name=".Login"
+                android:label="@string/Login"></activity>
         <activity
                 android:name=".Home"
                 android:label=""
-                android:theme="@style/AppTheme.NoActionBar">
-        </activity>
-        <activity
-                android:name=".Update"
-                android:label="@string/add_update"
-                android:parentActivityName=".Menu">
-        </activity>
+                android:theme="@style/AppTheme.NoActionBar"></activity>
+
         <activity
                 android:name=".Add"
                 android:label="@string/Add_acticityTitle"
-                android:parentActivityName=".Menu">
-        </activity>
+                android:parentActivityName=".Menu"></activity>
         <activity
                 android:name=".Menu"
                 android:label="@string/add_menu"
-                android:parentActivityName=".OurOrder">
-        </activity>
-        <activity android:name=".OurOrder">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                android:parentActivityName=".OurOrder"></activity>
+        <activity
+                android:name=".OurOrder"
+                android:label="Our Order">
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+
+
         </activity>
         <activity
                 android:name=".Ongoing"
                 android:label="@string/add_Ongoin"
-                android:parentActivityName=".OurOrder">
-        </activity>
-
-        <activity android:name=".contactus"></activity>
+                android:parentActivityName=".OurOrder"></activity>
+        <activity android:name=".contactus" />
         <activity android:name=".showorders" />
         <activity android:name=".showorderdetails" />
         <activity android:name=".showdliverymandetails">
+
+
+
+
         </activity>
+
+
+
+        <activity android:name=".Cart" />
+        <activity android:name=".Order" />
+        <activity android:name=".orderrecords" />
+        <activity android:name=".OrderUpdate" />
+        <activity android:name=".Pay1" />
+        <activity android:name=".Register" />
+        <activity android:name=".selectorder" />
+        <activity android:name=".UpdateDetails" />
+        <activity android:name=".View_Details" />
     </application>
 
 </manifest>
