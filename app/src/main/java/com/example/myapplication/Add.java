@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.database.DatabaseReference;
@@ -43,12 +44,13 @@ public class Add extends AppCompatActivity {
         Add = findViewById(R.id.Add);
         itm = new itemadd();
 
+        dbref = FirebaseDatabase.getInstance().getReference();
+
 
         Add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                dbref = FirebaseDatabase.getInstance().getReference().child("OrderRecordsAdd");
 
 
                 try {
@@ -61,19 +63,15 @@ public class Add extends AppCompatActivity {
 
 
                     else {///take inputs
+
                         itm.setName(Name.getText().toString().trim());
                         itm.setPrice(Price.getText().toString().trim());
                         itm.setContent(Content.getText().toString().trim());
 
                         ///insert to database
-                        dbref.push().setValue(itm);
-                        dbref.child("itm1").setValue(itm);
-
-                        ///Feedback
+                        dbref.child("PIZZA").child(itm.getName()).setValue(itm);
                         Toast.makeText(getApplicationContext(), "Data added Successfully", Toast.LENGTH_LONG).show();
-                        clearControlls();
-
-
+//                        clearControlls()
                     }
                 }
 
