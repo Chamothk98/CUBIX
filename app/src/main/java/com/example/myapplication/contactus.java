@@ -32,15 +32,15 @@ public class contactus extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.contactus);
 
-        txtName = findViewById(R.id.txtName);
+        txtName = findViewById(R.id.Name);
         txtEmail = findViewById(R.id.txtEmail);
         txtPhone = findViewById(R.id.txtPhone);
         txtWebsite = findViewById(R.id.txtWebsite);
         txtMessage = findViewById(R.id.txtMessage);
 
         btnSearch = findViewById(R.id.btnSearch);
-        btnUpdate = findViewById(R.id.btnUpdate);
-        btnDelete = findViewById(R.id.btnDelete);
+        //btnUpdate = findViewById(R.id.btnUpdate);
+        //btnDelete = findViewById(R.id.btnDelete);
         btnSubmit = findViewById(R.id.btnSubmit);
 
         //Insert Method
