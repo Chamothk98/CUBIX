@@ -4,7 +4,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#00A69292"
+        android:background="#DFD5D5"
         tools:context=".update_menu">
 
     <EditText
@@ -37,7 +37,8 @@
             android:id="@+id/Search"
             android:layout_width="89dp"
             android:layout_height="37dp"
-            android:text="Button"
+            android:background="@color/common_google_signin_btn_text_dark_default"
+            android:text="@string/search"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.879"
@@ -49,6 +50,7 @@
             android:id="@+id/Del"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
             android:text="@string/Delete"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -82,5 +84,47 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.055" />
+
+    <TextView
+            android:id="@+id/textView30"
+            android:layout_width="68dp"
+            android:layout_height="28dp"
+            android:text="@string/Name"
+            android:textColor="#0A0A0A"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.093"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.299" />
+
+    <TextView
+            android:id="@+id/textView42"
+            android:layout_width="68dp"
+            android:layout_height="28dp"
+            android:text="@string/Content"
+            android:textColor="#0A0A0A"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.093"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.591" />
+
+    <TextView
+            android:id="@+id/textView43"
+            android:layout_width="68dp"
+            android:layout_height="28dp"
+            android:text="@string/Price2"
+            android:textColor="#0A0A0A"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.093"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.438" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
