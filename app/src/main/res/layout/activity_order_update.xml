@@ -8,7 +8,7 @@
     tools:context=".OrderUpdate">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/Name"
         android:layout_width="100dp"
         android:layout_height="54dp"
         android:layout_marginStart="8dp"
@@ -37,7 +37,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:text="@string/TotPizza"
+
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -62,7 +62,7 @@
         app:layout_constraintVertical_bias="0.809" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/Content"
         android:layout_width="100dp"
         android:layout_height="54dp"
         android:layout_marginStart="8dp"
@@ -108,7 +108,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:text="@string/EID"
+
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -125,7 +125,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:text="@string/ID"
+
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -165,7 +165,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:hint="Enter here"
-        android:text="@string/TotPrice"
+
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

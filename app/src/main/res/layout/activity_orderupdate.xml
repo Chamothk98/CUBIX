@@ -8,7 +8,7 @@
     tools:context=".OrderUpdate">
 
     <EditText
-        android:id="@+id/editText10"
+        android:id="@+id/txtPhone"
         android:layout_width="100dp"
         android:layout_height="54dp"
         android:layout_marginStart="8dp"
@@ -43,7 +43,7 @@
         app:layout_constraintVertical_bias="0.2" />
 
     <EditText
-        android:id="@+id/editText9"
+        android:id="@+id/txtWebsite"
         android:layout_width="100dp"
         android:layout_height="54dp"
         android:layout_marginStart="8dp"
@@ -81,7 +81,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/Name"
         android:layout_width="100dp"
         android:layout_height="54dp"
         android:layout_marginStart="8dp"

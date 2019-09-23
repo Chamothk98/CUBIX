@@ -81,7 +81,7 @@
         android:layout_marginBottom="8dp"
         android:background="#07990F"
         android:onClick="getOrders2"
-        android:text="@string/confirm"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.921"
@@ -99,7 +99,7 @@
         android:layout_marginBottom="8dp"
         android:background="#07990F"
         android:onClick="getOrders2"
-        android:text="@string/confirm"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.921"
@@ -116,7 +116,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:background="#F44336"
-        android:text="@string/delete"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.065"
@@ -133,7 +133,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:background="#F44336"
-        android:text="@string/delete"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.065"
