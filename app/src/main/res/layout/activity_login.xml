@@ -61,6 +61,7 @@
     <Button
             android:text="@string/LoginP"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" tools:layout_editor_absoluteY="520dp"
-            tools:layout_editor_absoluteX="160dp" android:id="@+id/button24" android:background="#16921A"/>
+            android:layout_height="36dp" tools:layout_editor_absoluteY="520dp"
+            tools:layout_editor_absoluteX="160dp" android:id="@+id/button24" android:background="#16921A"
+            android:onClick="@string/Home1"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

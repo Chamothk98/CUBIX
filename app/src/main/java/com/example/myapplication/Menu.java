@@ -12,12 +12,12 @@ public class Menu extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu);
+        //setContentView(R.layout.activity_view__details);
     }
 
     public void Menu(View view){
-        Intent Me = new Intent(this,Add.class);
-        startActivity(Me);
+       // Intent Me = new Intent(this,Add.class);
+       // startActivity(Me);
     }
     public void Update(View view){
         Intent Up = new Intent(this,Update.class);

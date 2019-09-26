@@ -12,18 +12,9 @@
             android:layout_height="match_parent"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
             tools:showIn="@layout/app_bar_home"
-            tools:context=".Home" android:background="#DFD5D5">
+            tools:context=".Home" android:background="#DFD5D5" tools:layout_editor_absoluteY="-92dp"
+            tools:layout_editor_absoluteX="-97dp">
 
-        <ImageView
-                android:layout_width="131dp"
-                android:layout_height="130dp" app:srcCompat="@drawable/b"
-                android:id="@+id/imageView6" android:layout_marginBottom="8dp"
-                app:layout_constraintBottom_toBottomOf="parent" android:layout_marginTop="8dp"
-                app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
-                android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
-                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
-                android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.03"
-                app:layout_constraintVertical_bias="0.242"/>
         <TextView
                 android:text="Beef Pizza"
                 android:layout_width="240dp"
@@ -35,18 +26,6 @@
                 app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
                 android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintVertical_bias="0.515" android:background="#B6D0D6" android:textColor="#0A0706"
-                android:textSize="24sp"/>
-        <TextView
-                android:text="Peparoni Pizza"
-                android:layout_width="238dp"
-                android:layout_height="45dp"
-                android:id="@+id/textView34" android:layout_marginTop="8dp"
-                app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
-                app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
-                android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
-                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
-                android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.987"
-                app:layout_constraintVertical_bias="0.258" android:background="#B6D0D6" android:textColor="#0A0706"
                 android:textSize="24sp"/>
         <TextView
                 android:text="Cheese Chicken Pizza"
@@ -83,17 +62,6 @@
                 android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.916"
                 app:layout_constraintVertical_bias="0.889" android:background="#FF5722"/>
         <Button
-                android:text="View Details"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/button21" android:layout_marginTop="8dp"
-                app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
-                app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
-                android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
-                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
-                android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.9"
-                app:layout_constraintVertical_bias="0.358" android:background="#FF5722"/>
-        <Button
                 android:text="Add cart"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -115,17 +83,6 @@
                 app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
                 android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.56"
                 app:layout_constraintVertical_bias="0.617" android:background="#0EBD14"/>
-        <Button
-                android:text="Add cart"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/button20" android:layout_marginTop="8dp"
-                app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
-                app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
-                android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
-                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
-                android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.56"
-                app:layout_constraintVertical_bias="0.358" android:background="#0EBD14"/>
         <ImageView
                 android:layout_width="144dp"
                 android:layout_height="164dp" app:srcCompat="@drawable/d"
@@ -144,17 +101,15 @@
                 android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
                 app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
                 android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.031"/>
+        <ImageButton
+                android:layout_width="144dp"
+                android:layout_height="164dp" app:srcCompat="@drawable/b"
+                android:id="@+id/imageButton4" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="8dp" android:layout_marginStart="8dp" android:layout_marginBottom="8dp"
+                app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.234"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
-    <ImageView
-            android:layout_width="131dp"
-            android:layout_height="130dp" app:srcCompat="@drawable/b"
-            android:id="@+id/imageView6" android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginTop="8dp"
-            app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
-            android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.03"
-            app:layout_constraintVertical_bias="0.242"/>
     <TextView
             android:text="@string/pizza2"
             android:layout_width="240dp"
@@ -171,13 +126,13 @@
             android:text="@string/pizza1"
             android:layout_width="238dp"
             android:layout_height="45dp"
-            android:id="@+id/textView34" android:layout_marginTop="8dp"
+            android:id="@+id/name" android:layout_marginTop="8dp"
             app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
-            android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.987"
-            app:layout_constraintVertical_bias="0.258" android:background="#B6D0D6" android:textColor="#0A0706"
+            android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintVertical_bias="0.26" android:background="#B6D0D6" android:textColor="#0A0706"
             android:textSize="24sp"/>
     <TextView
             android:text="@string/pizza3"
@@ -214,18 +169,7 @@
             android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.916"
             app:layout_constraintVertical_bias="0.881" android:background="#FF5722"/>
     <Button
-            android:text="@string/View"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/button20" android:layout_marginTop="8dp"
-            app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
-            android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.9"
-            app:layout_constraintVertical_bias="0.358" android:background="#FF5722"/>
-    <Button
-            android:text="@string/Add_cart"
+            android:text="@string/Payment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button21" android:layout_marginTop="8dp"
@@ -236,7 +180,7 @@
             android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.56"
             app:layout_constraintVertical_bias="0.888" android:background="#0EBD14"/>
     <Button
-            android:text="@string/Add_cart"
+            android:text="@string/Payment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button22" android:layout_marginTop="8dp"
@@ -246,17 +190,6 @@
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
             android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.56"
             app:layout_constraintVertical_bias="0.617" android:background="#0EBD14"/>
-    <Button
-            android:text="@string/Add_cart"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/button23" android:layout_marginTop="8dp"
-            app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
-            android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.56"
-            app:layout_constraintVertical_bias="0.358" android:background="#0EBD14"/>
     <Button
             android:text="@string/Cart_button"
             android:layout_width="51dp"
@@ -296,7 +229,8 @@
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
-            android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.031"/>
+            android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.031"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"/>
     <View
             android:layout_width="411dp"
             android:layout_height="90dp"
@@ -310,4 +244,8 @@
             tools:layout_editor_absoluteX="-98dp" android:id="@+id/imageView13"
             android:layout_marginBottom="576dp"
             app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
