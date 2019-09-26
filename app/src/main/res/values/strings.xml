@@ -101,4 +101,7 @@
     <string name="delete">Delete</string>
     <string name="submit">Submit</string>
     <string name="UPM">Update Menu</string>
+    <string name="vehicleno">BBN2361</string>
+    <string name="address1">Address:</string>
+    <string name="vehicleno1">Vehicle No:</string>
 </resources>
