@@ -19,7 +19,7 @@
             android:text="@string/search"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.025"
+            app:layout_constraintHorizontal_bias="0.057"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.948"/>
@@ -27,32 +27,24 @@
             android:id="@+id/btnDelete"
             android:layout_width="87dp"
             android:layout_height="40dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"
-            android:layout_marginBottom="8dp"
             android:background="#07990F"
             android:text="@string/delete"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.946" app:layout_constraintStart_toEndOf="@+id/btnUpdate"
-            android:layout_marginStart="8dp" android:layout_marginLeft="8dp"
-            app:layout_constraintHorizontal_bias="0.034"/>
+            app:layout_constraintBaseline_toBaselineOf="@+id/btnUpdate" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.084" app:layout_constraintStart_toEndOf="@+id/btnUpdate"/>
     <Button
             android:id="@+id/btnUpdate"
             android:layout_width="79dp"
             android:layout_height="41dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"
-            android:layout_marginBottom="8dp"
             android:background="#07990F"
             android:text="@string/update"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.948" app:layout_constraintStart_toEndOf="@+id/btnSearch"
-            android:layout_marginStart="8dp" android:layout_marginLeft="8dp"
-            app:layout_constraintHorizontal_bias="0.018"/>
+            app:layout_constraintBaseline_toBaselineOf="@+id/btnSearch" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.055" app:layout_constraintStart_toEndOf="@+id/btnSearch"/>
     <TextView
         android:id="@+id/textView8"
         android:layout_width="0dp"
@@ -79,14 +71,13 @@
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
             android:ems="10"
+            android:hint="@string/yname"
             android:inputType="textPersonName"
-            android:text="@string/yname"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.22"/>
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.22"/>
 
     <EditText
             android:id="@+id/txtEmail"
@@ -97,14 +88,13 @@
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
             android:ems="10"
+            android:hint="@string/yemail"
             android:inputType="textPersonName"
-            android:text="@string/yemail"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.356"/>
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.356"/>
 
     <EditText
             android:id="@+id/txtWebsite"
@@ -115,14 +105,13 @@
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
             android:ems="10"
+            android:hint="@string/yweb"
             android:inputType="textPersonName"
-            android:text="@string/yweb"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.635"/>
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.635"/>
 
     <EditText
             android:id="@+id/txtPhone"
@@ -133,13 +122,12 @@
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
             android:ems="10"
+            android:hint="@string/yphoneno"
             android:inputType="phone"
-            android:text="@string/yphoneno"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
 
     <EditText
             android:id="@+id/txtMessage"
@@ -149,30 +137,27 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
-            android:hint="yname"
             android:ems="10"
+            android:hint="@string/typemessage"
             android:inputType="textPersonName"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.811" android:text="@string/typemessage"/>
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.811"/>
 
     <Button
             android:id="@+id/btnSubmit"
             android:layout_width="86dp"
             android:layout_height="41dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"
-            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"
             android:background="#07990F"
             android:text="@string/submit"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.948" app:layout_constraintStart_toEndOf="@+id/btnDelete"
-            android:layout_marginStart="8dp" android:layout_marginLeft="8dp"
-            app:layout_constraintHorizontal_bias="0.619"/>
+            app:layout_constraintBaseline_toBaselineOf="@+id/btnDelete"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toEndOf="@+id/btnDelete"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
