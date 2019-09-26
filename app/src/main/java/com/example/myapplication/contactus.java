@@ -32,22 +32,24 @@ public class contactus extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.contactus);
 
-        txtName = findViewById(R.id.Name);
+        conus = new contactusrecords();
+
+        txtName = findViewById(R.id.txtName);
         txtEmail = findViewById(R.id.txtEmail);
         txtPhone = findViewById(R.id.txtPhone);
         txtWebsite = findViewById(R.id.txtWebsite);
         txtMessage = findViewById(R.id.txtMessage);
 
         btnSearch = findViewById(R.id.btnSearch);
-        //btnUpdate = findViewById(R.id.btnUpdate);
-        //btnDelete = findViewById(R.id.btnDelete);
+        btnUpdate = findViewById(R.id.btnUpdate);
+        btnDelete = findViewById(R.id.btnDelete);
         btnSubmit = findViewById(R.id.btnSubmit);
 
         //Insert Method
 
         btnSubmit.setOnClickListener(new View.OnClickListener() {
 
-            contactusrecords conus = new contactusrecords();
+
 
             @Override
             public void onClick(View view) {
@@ -59,6 +61,8 @@ public class contactus extends AppCompatActivity {
                         Toast.makeText(getApplicationContext(), "Please enter name", Toast.LENGTH_SHORT).show();
                     else if (TextUtils.isEmpty(txtEmail.getText().toString()))
                         Toast.makeText(getApplicationContext(), "Please enter email", Toast.LENGTH_SHORT).show();
+                    else if (TextUtils.isEmpty(txtMessage.getText().toString()))
+                        Toast.makeText(getApplicationContext(), "Please enter a message", Toast.LENGTH_SHORT).show();
                     else {
 
                         conus.setName(txtName.getText().toString().trim());
@@ -67,16 +71,16 @@ public class contactus extends AppCompatActivity {
                         conus.setWebsite(txtWebsite.getText().toString().trim());
                         conus.setMessage(txtMessage.getText().toString().trim());
 
-                        dbRef.push().setValue(conus);
-                        dbRef.child("contact").setValue(conus);
+                        //dbRef.push().setValue(conus);
+                        // dbRef.child("contact").setValue(conus);
 
-                        //dbRef.child(conus.getName()).setValue(conus);
+                        dbRef.child(conus.getName()).setValue(conus);
 
                         Toast.makeText(getApplicationContext(), "Data Saved Successfully", Toast.LENGTH_SHORT).show();
                         clearControls();
                     }
                 } catch (NumberFormatException e) {
-                    Toast.makeText(getApplicationContext(), "Please enter a message", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Data Saved UnSuccessfully", Toast.LENGTH_SHORT).show();
                 }
             }
 
@@ -93,20 +97,20 @@ public class contactus extends AppCompatActivity {
                 updateRef.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                        contactusrecords conus = new contactusrecords();
+                       // contactusrecords conus = new contactusrecords();
 
                         if(dataSnapshot.hasChild(txtName.getText().toString())){
 
-                            conus.setName(txtName.getText().toString());
-                            conus.setEmail(txtEmail.getText().toString());
-                            conus.setPhoneNo(txtPhone.getText().toString());
-                            conus.setWebsite(txtWebsite.getText().toString());
-                            conus.setMessage(txtMessage.getText().toString());
+                            conus.setName(txtName.getText().toString().trim());
+                            conus.setEmail(txtEmail.getText().toString().trim());
+                            conus.setPhoneNo(txtPhone.getText().toString().trim());
+                            conus.setWebsite(txtWebsite.getText().toString().trim());
+                            conus.setMessage(txtMessage.getText().toString().trim());
 
                             DatabaseReference dbRef = FirebaseDatabase.getInstance().getReference().child("contactusrecords").child(txtName.getText().toString());
                             dbRef.setValue(conus);
 
-                            Toast.makeText(getApplicationContext(),"Data Update Successfully!",Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getApplicationContext(),"Updated Successfully!",Toast.LENGTH_SHORT).show();
                         }
                         else{
                             Toast.makeText(getApplicationContext(),"No sourse to update ",Toast.LENGTH_SHORT).show();
@@ -179,7 +183,7 @@ public class contactus extends AppCompatActivity {
                             DatabaseReference dbRef = FirebaseDatabase.getInstance().getReference().child("contactusrecords").child(txtName.getText().toString());
                             dbRef.removeValue();
 
-                            Toast.makeText(getApplicationContext(),"Data deleted succesfully!",Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getApplicationContext(),"Deleted succesfully!",Toast.LENGTH_SHORT).show();
                         }
                         else{
                             Toast.makeText(getApplicationContext(),"No Source to delete!",Toast.LENGTH_SHORT).show();
