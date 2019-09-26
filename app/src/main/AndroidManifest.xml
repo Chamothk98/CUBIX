@@ -9,7 +9,40 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".Login" android:label="@string/Login">
+        <activity android:name=".payment"
+                  android:label="Payment">
+
+        </activity>
+        <activity android:name=".Allpay"
+        android:label="Home Page">
+
+
+        </activity>
+        <activity android:name=".Register_11"
+                  android:label="Register Details View">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
+        <activity
+                android:name=".Login"
+                android:label="@string/Login">
+        </activity>
+        <activity
+                android:name=".Pay1"
+                android:label="@string/Payment">
+        </activity>
+        <activity
+                android:name=".UpdateDetails"
+                android:label="@string/Update">
+        </activity>
+        <activity
+                android:name=".Register"
+                android:label="Register">
+
         </activity>
         <activity
                 android:name=".Home"
@@ -22,21 +55,11 @@
                 android:parentActivityName=".Menu">
         </activity>
         <activity
-                android:name=".Add"
-                android:label="@string/Add_acticityTitle"
-                android:parentActivityName=".Menu">
-        </activity>
-        <activity
                 android:name=".Menu"
                 android:label="@string/add_menu"
                 android:parentActivityName=".OurOrder">
         </activity>
         <activity android:name=".OurOrder">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
         </activity>
         <activity
                 android:name=".Ongoing"

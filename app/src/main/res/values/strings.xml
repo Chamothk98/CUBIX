@@ -28,7 +28,9 @@
     <string name="pizza3">Cheese onion Pizza</string>
     <string name="pizza4">Devil chicken Pizza</string>
     <string name="Add_Mbutton">Add menu Item</string>
-    <string name="mssage">Please tell yourdelivery boy that he has come on 2nd floor because i am not available at home</string>
+    <string name="mssage">Please tell yourdelivery boy that he has come on 2nd floor because i am not available at
+        home
+    </string>
     <string name="NUmber">9478675984</string>
     <string name="Email">John123@gmail.</string>
     <string name="Address">440 Temple road,Galle,Srilanka</string>
@@ -49,27 +51,24 @@
     <string name="CNSLBUT">Cancel</string>
     <string name="ACCBUT">Accept</string>
 
-
+    //viewDetails
     <string name="view_Details_btn">VIEW DETAILS</string>
-    <string name="Sausage_pizza">Sausage  pizza</string>
+    <string name="Sausage_pizza">Sausage pizza</string>
     <string name="Greek_Pizza">Greek Pizza</string>
     <string name="Mexican_Taco">Mexican Taco</string>
     <string name="Add">Add Cart</string>
     //cart
-
     <string name="Qty">Qty</string>
     <string name="Size">Size</string>
-
-    <string name="Pay">pay</string>
     <string name="Update">Update</string>
     <string name="Delete">Delete</string>
     //pay1
-    <string name="Name1">Sausage  pizza</string>
+    <string name="Name1">Name</string>
     <string name="Qty1">9 pieces</string>
+    <string name="Address1">Address</string>
     <string name="Size1">Rs.1200</string>
-    <string name="Price1">P</string>
-
-    <string name="Visa_card_num">Visa card  num</string>
+    <string name="Visa_card_num">Visa card num</string>
+    <string name="Cash">Cash</string>
     <string name="Payment">Pay</string>
     <string name="Home">Home</string>
     //view Detils
@@ -88,7 +87,43 @@
     <string name="add_reg">Register</string>
     <string name="add_details">Details</string>
     //update
-    <string name="Update_Complete">Done</string>
+    <string name="name">Name</string>
+    <string name="qty">Qty</string>
+    <string name="address">Address</string>
+    <string name="Visanum">Visa Num</string>
+    <string name="Cash1">Cash</string>
+    <string name="Update_Complete">Update</string>
     //Register
     <string name="Submit">Submit</string>
+
+    <string name="cart">cart3</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home2">Home2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="app_name">Home</string>
+    <string name="foodname1">Name</string>
+    <string name="foodPrice1">Price</string>
+    <string name="foodcontent">Content</string>
+    <string name="Add_Cart">Add Cart</string>
+    <string name="menue">menue</string>
+    <string name="itemName">itemName</string>
+    <string name="itemPrice">itemPrice</string>
+    <string name="itemDescrition">itemDescrition</string>
+    <string name="AddToCart">/AddToCart</string>
+    <string name="itemNo">itemNo</string>
+    <string name="priceInRuppees">priceInRuppees</string>
+
+
+    //cv
+    <string name="btnEdit">btnEdit</string>
+    <string name="RemoveButton">RemoveButton</string>
+
 </resources>
