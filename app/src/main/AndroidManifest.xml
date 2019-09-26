@@ -33,11 +33,6 @@
                 android:label="Our Order">
 
 
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
 
 
 
@@ -46,12 +41,20 @@
                 android:name=".Ongoing"
                 android:label="@string/add_Ongoin"
                 android:parentActivityName=".OurOrder"></activity>
-        <activity android:name=".contactus" />
+        <activity android:name=".contactus">
+
+        </activity>
         <activity android:name=".showorders" />
-        <activity android:name=".showorderdetails" />
+        <activity android:name=".showorderdetails">
+
+        </activity>
         <activity android:name=".showdliverymandetails">
 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
 
         </activity>
